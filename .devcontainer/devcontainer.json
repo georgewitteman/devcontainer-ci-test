@@ -5,16 +5,5 @@
   },
   "workspaceFolder": "/workspaces/devcontainer-ci-test",
   "updateContentCommand": ["/bin/bash", ".devcontainer/updateContent.sh"],
-  "remoteUser": "node",
-  "features": {
-    "ghcr.io/devcontainers/features/aws-cli": {},
-    "ghcr.io/devcontainers/features/desktop-lite": {},
-    "ghcr.io/devcontainers/features/docker-in-docker": {
-      "dockerDashComposeVersion": "v2",
-      "moby": true
-    },
-    "ghcr.io/devcontainers/features/github-cli": {},
-    "ghcr.io/devcontainers/features/sshd": {},
-    "ghcr.io/devcontainers/features/terraform": {}
-  }
+  "remoteUser": "node"
 }

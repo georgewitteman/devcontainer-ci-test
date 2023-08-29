@@ -20,10 +20,3 @@ RUN apt-get update && \
         libxss1 \
         libasound2 \
         libxtst6 xauth xvfb
-
-# Set up [Corepack](https://nodejs.org/dist/latest/docs/api/corepack.html). This
-# also sets up [yarn](https://yarnpkg.com/getting-started/install).
-RUN corepack enable
-
-# Install vercel
-RUN su node -c 'npm install --location=global vercel'
