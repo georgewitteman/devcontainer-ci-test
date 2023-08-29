@@ -21,4 +21,4 @@ RUN apt-get update && \
         libasound2 \
         libxtst6 xauth xvfb
 
-RUN apt-cache rdepends --no-suggests --no-conflicts --no-breaks --no-replaces --no-enhances --installed --recurse
+RUN apt-cache rdepends --no-suggests --no-conflicts --no-breaks --no-replaces --no-enhances --installed --recurse systemd
