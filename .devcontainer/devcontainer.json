@@ -10,6 +10,6 @@
     "ghcr.io/devcontainers/features/docker-in-docker": {
       "dockerDashComposeVersion": "v2",
       "moby": true
-    },
+    }
   }
 }
