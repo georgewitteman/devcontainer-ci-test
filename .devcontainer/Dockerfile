@@ -10,7 +10,7 @@ RUN apt-get update && \
     export DEBIAN_FRONTEND=noninteractive && \
     apt-get --yes install --no-install-recommends systemd
 
-RUN delgroup systemd-journal
+# RUN delgroup systemd-journal
 
 # Install dependencies needed for running Cypress
 # https://docs.cypress.io/guides/continuous-integration/introduction#Ubuntu-Debian
