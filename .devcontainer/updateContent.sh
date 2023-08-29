@@ -8,6 +8,8 @@ export CI=true
 export NO_COLOR=1
 
 # Debugging
+cat /etc/group || true
+cat /etc/passwd || true
 pwd || true
 groups || true
 id || true

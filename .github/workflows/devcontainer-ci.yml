@@ -15,5 +15,6 @@ jobs:
       - name: Install devcontainer CLI
         run: npm install --location=global @devcontainers/cli
 
+      - run: set -o xtrace; cat /etc/group; cat /etc/passwd;
       - name: Build and run dev container
         run: devcontainer up --workspace-folder . --remove-existing-container --build-no-cache --log-level trace
