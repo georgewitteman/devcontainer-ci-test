@@ -5,5 +5,11 @@
   },
   "workspaceFolder": "/workspaces/devcontainer-ci-test",
   "updateContentCommand": ["/bin/bash", ".devcontainer/updateContent.sh"],
-  "remoteUser": "node"
+  "remoteUser": "node",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker": {
+      "dockerDashComposeVersion": "v2",
+      "moby": true
+    },
+  }
 }
